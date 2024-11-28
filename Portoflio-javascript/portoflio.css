@@ -1,0 +1,169 @@
+html, body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: #333;
+}
+
+header {
+    background-color: #1d4e89;
+    color: #ffffff;
+    text-align: left;
+    padding: 1cm 0;
+    box-shadow: 0 2px 8px;
+}
+
+nav {
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px;
+    height: 1cm;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px 0;
+    text-align: center;
+    margin: 0 0 0.1cm 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #1d4e89;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #1d4e89;
+    color: #ffffff;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.text-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.text {
+    flex: 1;
+    padding: 20px;
+    max-width: 500px;
+}
+
+.image {
+    flex: 1;
+    padding: 20px;
+    max-width: 500px;
+}
+
+.image img, .image video {
+    width: 100%;
+    height: 20%;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.image img:hover, .image video:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    background-color: #1d4e89;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.5em 0;
+    box-shadow: 0 -2px 4px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+section {
+    display: none;
+}
+
+section.active {
+    display: block;
+}
+
+h3 {
+    padding: 30px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+a1 {
+    color: white;
+}
+
+a1 {
+    margin: 0;
+
+    text-align: right;
+}
+
+table {
+    border-collapse: collapse;
+    width: 30%;
+}
+
+th, td {
+    text-align: left;
+    padding: 0px;
+}
+
+th {
+    background-color: #1d4e89;
+    color: white;
+}
+
+footer a {
+    color: greenyellow;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.placeholder img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    float: left;
+
+
+}
+
+textarea {
+    padding: 82px;
+}
