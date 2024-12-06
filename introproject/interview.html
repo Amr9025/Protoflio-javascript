@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portoflio.css">
+</head>
+<body>
+<header>
+    <h3>Amr AL-Saholy (My Portfolio)</h3>
+    <span id="clock" class="clock">00:00:00</span>
+    <button id="menu-toggle" class="hamburger-menu">☰</button>
+
+    <button onclick="myFunction()"><span style='font-size:20px;'>&#127769;</span></button>
+</header>
+<nav id="links" class="menu hidden">
+    <ul>
+        <li><a href="portoflio.html">Home</a></li>
+        <li><a href="Over-mij.html">Over-mij</a></li>
+        <li><a href="ervaring.html">Ervaring</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="interview.html">Interview</a></li>
+        <li><a href="projecten.html">Projecten</a></li>
+        <li><a href="bronnen.html">Bronnen</a></li>
+    </ul>
+</nav>
+<section id="interview" class="active">
+    <section class="stylingBody">
+        <h1><div id="greeting"></div>
+        <div class="container">
+            <div class="text-img">
+                <div class="text">
+                    <h2>Interview<br><br> deze video heb ik mijn collega geinterviewd. </h2>
+                    <p> De vragen zijn:<br><br> Wat vind je van de opleiding? <br><br> Waarom heb je voor deze opleiding
+                        gekozen? <br><br> Wat heb je tot nu toe geleerd van de opleiding? <br><br> Wat wil je berijken
+                        met deze opleiding? <br><br> Wat ga je doen na het behalen van deze opleiding? </p>
+                </div>
+                <div class="image">
+                    <video controls>
+                        <source src="img/interview.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    </section>
+</section>
+<footer>
+    <p>Heeft u nog vragen? Neem dan <a href="contact.html"> Contact </a></p>
+</footer>
+<div id="cookie-banner" class="cookie-banner">
+    <p>We gebruiken cookies om uw ervaring te verbeteren. Door verder te gaan, accepteert u ons gebruik van cookies.</p>
+    <button id="accept-cookies" onclick=""> Accepteren</button>
+</div>
+<script src="portoflio.js"></script>
+</body>
+</html>

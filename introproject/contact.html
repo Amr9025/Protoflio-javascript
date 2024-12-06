@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portoflio.css">
+</head>
+<body>
+<header>
+    <h3>Amr AL-Saholy (My Portfolio)</h3>
+    <span id="clock" class="clock">00:00:00</span>
+    <button id="menu-toggle" class="hamburger-menu">☰</button>
+
+    <button onclick="myFunction()"><span style='font-size:20px;'>&#127769;</span></button>
+</header>
+<nav id="links" class="menu hidden">
+    <ul>
+        <li><a href="portoflio.html">Home</a></li>
+        <li><a href="Over-mij.html">Over-mij</a></li>
+        <li><a href="ervaring.html">Ervaring</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="interview.html">Interview</a></li>
+        <li><a href="projecten.html">Projecten</a></li>
+        <li><a href="bronnen.html">Bronnen</a></li>
+    </ul>
+</nav>
+<section id="contact" class="active">
+    <h1><div id="greeting"></div></h1>
+        <div class="container">
+            <section class="stylingBody">
+            <h2>Contact</h2>
+                <form action="">
+                <label for="naam">Naam:</label>
+                <input type="text" id="naam" name="naam" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="bericht">Bericht:</label><br>
+                <textarea id="bericht" name="bericht" rows="5" required></textarea><br><br>
+            </form>
+            </section>
+        </div>
+</section>
+<footer>
+    <p>Heeft u nog vragen? Neem dan <a href="contact.html"> Contact </a></p>
+</footer>
+<div id="cookie-banner" class="cookie-banner">
+    <p>We gebruiken cookies om uw ervaring te verbeteren. Door verder te gaan, accepteert u ons gebruik van cookies.</p>
+    <button id="accept-cookies" onclick=""> Accepteren</button>
+</div>
+<script src="portoflio.js"></script>
+</body>
+</html>
