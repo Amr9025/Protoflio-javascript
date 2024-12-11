@@ -9,6 +9,11 @@ body {
     color: #333;
 }
 
+p {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0;
+}
 header {
     display: flex;
     flex-direction: row;
@@ -106,11 +111,18 @@ footer {
     text-align: center;
     padding: 1.5em 0;
     box-shadow: 0 -2px 4px;
+
 }
 
 footer p {
     margin: 0;
     font-size: 0.9em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: space-around;
+    justify-content: center;
 }
 
 section {
